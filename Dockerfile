@@ -1,4 +1,4 @@
-FROM node:18-bullseye
+FROM node:hydrogen-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
